@@ -1,0 +1,21 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/TimesNewRoman-Bold.ttf",
+      "sha1": "b2ea78cd70ec16e3a39ead2c44ed23f1216602da"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRoman-BoldItalic.ttf",
+      "sha1": "a999c4760db515679f6a31756d2ee6ab5f745ecf"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRoman-Italic.ttf",
+      "sha1": "0ab588efc47afa31e13181cd29a5795398491150"
+    },
+    {
+      "path": "src/assets/fonts/TimesNewRoman.ttf",
+      "sha1": "78f02dbda3abc563e972f7d26ff26ba6abd738d9"
+    }
+  ]
+}

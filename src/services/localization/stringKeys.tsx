@@ -1,0 +1,172 @@
+export enum EnumStringKeys {
+  Home_Title,
+  Home_CV,
+  Home_Gallery,
+  Home_Links,
+  Home_Contact,
+
+  CV_Title,
+
+  CV_Section_GeneralDetails,
+
+  CV_Task_PersonalDetails,
+  CV_Personal_Address_Caption,
+  CV_Personal_Address,
+  CV_Personal_Phone,
+  CV_Personal_Phone_Number,
+  CV_Personal_Email,
+  CV_Personal_WEB,
+
+  CV_Task_Languages,
+  CV_Languages_English_Caption,
+  CV_Languages_English,
+  CV_Languages_Hebrew_Caption,
+  CV_Languages_Hebrew,
+
+  CV_Task_Summary,
+  CV_Summary_27_Years_Long,
+  CV_Summary_Self_Study,
+  CV_Summary_Human_Debugger,
+  CV_Summary_Appreciated,
+  CV_Summary_27_Years_Short,
+
+  CV_Section_WorkExperience,
+
+  CV_Task_MyRecord,
+  CV_MyRecord_MVP_1x,
+  CV_MyRecord_MVP_1x_1,
+  CV_MyRecord_MVP_1x_2,
+  CV_MyRecord_MVP_0x,
+  CV_MyRecord_MVP_0x_Development,
+  CV_MyRecord_MVP_0x_1,
+  CV_MyRecord_MVP_0x_2,
+
+  CV_Task_Vanaga,
+  CV_Vanaga_Independent,
+  CV_Vanaga_Application,
+  CV_Vanaga_Network,
+  CV_Vanaga_Env,
+
+  CV_Task_SanDisk,
+  CV_SanDisk_Insight,
+  CV_SanDisk_Insight_Development,
+  CV_SanDisk_Insight_Application,
+  CV_SanDisk_Insight_Clients,
+  CV_SanDisk_Oscar,
+  CV_SanDisk_Oscar_Development,
+  CV_SanDisk_Oscar_GUI,
+  CV_SanDisk_Scripter,
+  CV_SanDisk_Scripter_Development,
+  CV_SanDisk_Scripter_System,
+  CV_SanDisk_Scripter_GUI,
+  CV_SanDisk_Scripter_Work,
+  CV_SanDisk_Scripter_Use,
+
+  CV_Task_ImpulseDynamics,
+  CV_ImpulseDynamics_Development,
+  CV_ImpulseDynamics_Env,
+
+  CV_Task_Elbit,
+  CV_Elbit_Development,
+  CV_Elbit_Work,
+
+  CV_Task_ArelNet,
+  CV_ArelNet_1,
+  CV_ArelNet_2,
+  CV_ArelNet_3,
+
+  CV_Section_Education,
+
+  CV_Task_Technion,
+  CV_Technion_BSc,
+  CV_Technion_Specialization,
+  CV_Technion_Grade,
+  CV_Technion_Faculty,
+  CV_Technion_Courses,
+  CV_Technion_Project,
+  CV_Technion_Project_Spooler,
+  CV_Technion_Project_Desc,
+  CV_Technion_Project_Grade,
+  CV_Task_Bosmat,
+  CV_Bosmat_Practical_Electrical_Engineering,
+  CV_Bosmat_Excellent_Student,
+  CV_Bosmat_Project_1,
+  CV_Bosmat_Project_2,
+  CV_Bosmat_Project_Grade,
+  CV_Bosmat_Bagrut,
+
+  Gallery_Title,
+  Gallery_SubTitle,
+  Gallery_LondonLightTunnel,
+  Gallery_AhuTongariki,
+  Gallery_ViennaChristmasMarket,
+  Gallery_LondonTubeTunnel,
+  Gallery_MeteoraLightning,
+  Gallery_TrwynDuLighthouse,
+  Gallery_BigBen,
+  Gallery_Jump,
+  Gallery_BachBach,
+  Gallery_Train,
+  Gallery_HaifaLightning,
+  Gallery_LaPlagne,
+  Gallery_Anemones,
+
+  Contact_Title,
+
+  Contact_Section_Connection,
+
+  Contact_Task_Call,
+  Contact_Cellular_Phone,
+  Contact_Cellular_Phone_Number,
+  Contact_Home_Phone,
+  Contact_Home_Phone_Number,
+
+  Contact_Task_Messaging,
+  Contact_Email,
+  Contact_Whatsapp,
+
+  Links_Title,
+
+  Links_Section_Professional,
+
+  Links_Task_Downloads,
+  Links_CV_Hebrew,
+  Links_CV_English,
+  Links_CV_Doc,
+  Links_CV_Pdf,
+  Links_Andorid_App,
+
+  Links_Task_Web,
+  Links_Github,
+  Links_Linkedin,
+  Links_WEB,
+
+  Links_Task_Projects,
+  Links_Vanaga,
+  Links_MyRecord_0x,
+  Links_MyRecord_1x,
+  Links_MyRecord_1x_Android_Link,
+  Links_MyRecord_1x_iOS_Link,
+  Links_Hive,
+
+  Links_Section_Personal,
+
+  Links_Task_Music,
+  Links_Youtube_Eng,
+  Links_Youtube_Eng_Link,
+  Links_Youtube_Heb,
+  Links_Youtube_Heb_Link,
+
+  Links_Task_Social,
+  Links_Facebook,
+  Links_Instagram,
+  Links_Tripadvisor,
+
+  Phone_Permissions_Title,
+  Phone_Permissions_Message,
+  Phone_Permissions_ButtonNeutral,
+  Phone_Permissions_ButtonNegative,
+  Phone_Permissions_ButtonPositive
+}
+
+export type EnumStringKeysDict = Record<EnumStringKeys, string>;
